@@ -1,5 +1,7 @@
 package net.epicowl55.tutorialmod;
 
+import net.epicowl55.tutorialmod.block.ModBlocks;
+import net.epicowl55.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +16,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

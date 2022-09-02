@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "tutorialmod:endstone_tanzanite_ore",
+    "tutorialmod:netherrack_tanzanite_ore"
   ]
 }
